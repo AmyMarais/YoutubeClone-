@@ -1,4 +1,4 @@
-# YoutubeClone-
+# YoutubeClone using Reactjs and Youtube Data API V3
 A fun project I completed to get a better grip on Reactjs
 
 ## Live Demo
