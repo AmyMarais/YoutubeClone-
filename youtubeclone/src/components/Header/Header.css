@@ -1,0 +1,48 @@
+/* styling for header component */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__logo {
+  height: 25px;
+  width: 200px;
+  object-fit: contain;
+  margin-left: 20px;
+  text-align: initial;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.header__searchbutton {
+  width: 50px !important;
+  border-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  margin-right: 12px;
+}
+
+.header__center > input {
+  flex: 1;
+}

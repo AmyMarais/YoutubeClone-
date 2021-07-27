@@ -1,0 +1,45 @@
+/* styling for SideBarRow component */
+
+.sidebarrow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 10px;
+}
+
+.sidebarrow__icon {
+  color: #606060;
+  font-size: medium !important;
+}
+
+.sidebarrow__title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sidebarrow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebarrow:hover > .sidebarrow__icon {
+  color: red;
+}
+
+.sidebarrow:hover > .sidebarrow__title {
+  font-weight: bold;
+}
+
+.sidebarrow.selected {
+  background-color: lightgray;
+}
+
+.sidebarrow.selected > .sidebarrow__icon {
+  color: red;
+}
+
+.sidebarrow.selected > .sidebarrow__title {
+  font-weight: bold;
+}
